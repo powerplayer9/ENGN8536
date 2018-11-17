@@ -4,7 +4,7 @@ The first part is to network given below:
 
 The forward & backward propagation are coded manually.
 
-The second part was to remake the network using pytorch and experiment how the network behaves to various changes.
+The second part was to remake the network using pytorch and experiment how the network behaves to various changes. The files for part 2 start with naming convention 'Net[file name]'
 The results are given below:
 
 [Note: All the results are generated using CPU execution for a max of 10 epoch]
