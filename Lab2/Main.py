@@ -5,7 +5,7 @@ import torch.nn as nn
 import torch.nn.functional as F
 import torch.optim as optim
 
-import checkFile
+from .checkFile import *
 import accuracyCheck
 import LossCheck
 import Train
@@ -26,7 +26,7 @@ if __name__ == '__main__':
     Epoch = 10
 
     # Loading datasets & class labels
-    trainloader, validloader, testloader, classes = checkFile.initFiles(batch_size, valid_size)
+    trainloader, validloader, testloader, classes = initFiles(batch_size, valid_size)
 
     # The CNN layers in order
     '''
