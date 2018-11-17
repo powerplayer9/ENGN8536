@@ -12,4 +12,5 @@ GPU Nvidia GTX 1060
 An additional task was to try experimenting a model and check how it compares with the model given in the lab.
 
 The Experimental network model is loaded in NetExperiment.py.
-Use the NotebookExperiment.ipynb to test it.
+
+Import the experimental model in the iPythonNotebook to run it.

@@ -1,7 +1,7 @@
 from __future__ import print_function
 
 import numpy as np
-from softmax import softmax_loss
+from .softmax import softmax_loss
 
 
 class LinearClassifier(object):
